@@ -1,0 +1,8 @@
+Flask
+Gunicorn
+PyPDF2
+PrettyTable
+flask_cors
+python-dotenv
+flask
+requests
