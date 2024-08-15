@@ -8,7 +8,9 @@ from flask import Flask, request
 import requests
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
+CORS(app, resources={r"*": {"origins": "*"}})
+
 
 
 @app.route("/send", methods=["POST"])
